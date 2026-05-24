@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(cmd /c 'copy /Y \"c:\\\\工作\\\\E 程序员\\\\刘乐乐的程序_临时.lsp\" \"c:\\\\工作\\\\E 程序员\\\\刘乐乐的程序 - 副本.lsp\" && del \"c:\\\\工作\\\\E 程序员\\\\刘乐乐的程序_临时.lsp\"')",
+      "Bash(cat)",
+      "Bash(python /tmp/fix_jlb.py)",
+      "Bash(python /tmp/add_bbb.py)",
+      "Bash(python /tmp/fix_bbb.py)",
+      "Bash(python /tmp/add_bbb2.py)",
+      "Bash(python /tmp/clean_fix.py)",
+      "Bash(python /tmp/add_dc.py)",
+      "Bash(python /tmp/auto_table.py)",
+      "Bash(cp \"c:/工作/E 程序员/pic.png\" /tmp/ui.png)",
+      "Bash(cp \"c:/工作/E 程序员/pic.png\" \"C:/Temp/ui.png\")",
+      "Bash(git config *)",
+      "Bash(git remote *)",
+      "Bash(git fetch *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git reset *)"
+    ],
+    "additionalDirectories": [
+      "\\tmp",
+      "C:\\Temp"
+    ]
+  }
+}
